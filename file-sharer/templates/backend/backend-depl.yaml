@@ -25,16 +25,8 @@ spec:
         env:
           - name: DB_USERNAME
             value: {{ required "database username is required. Use --set database.root_user=<username>" .Values.database.root_user }}
-            # valueFrom:
-            #   secretKeyRef:
-            #     name: backend-secret
-            #     key: db_username
           - name: DB_PASSWORD
             value: {{ required "database password is required. Use --set database.root_password=<password>" .Values.database.root_password }}
-            # valueFrom:
-            #   secretKeyRef:
-            #     name: backend-secret
-            #     key: db_password
           - name: DB_URL
             valueFrom:
               configMapKeyRef:

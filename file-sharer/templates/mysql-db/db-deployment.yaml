@@ -22,10 +22,6 @@ spec:
         env:
         - name: MYSQL_ROOT_PASSWORD
           value: {{ required "database password is required. Use --set database.root_password=<password>" .Values.database.root_password }}
-          # valueFrom:
-          #   secretKeyRef:
-          #     key: root_password
-          #     name: db-secret
         volumeMounts:
         - name: mysql-vol
           mountPath: /var/lib/mysql
