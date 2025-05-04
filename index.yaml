@@ -2,13 +2,12 @@ apiVersion: v1
 entries:
   file-sharer:
   - apiVersion: v2
-    created: "2025-05-02T16:32:01.915820239+05:30"
+    created: "2025-05-04T14:33:32.66427247+05:30"
     description: A Helm chart of simple 3 tier file sharing application in Kubernetes
-      not define any templates and therefore cannot be deployed.
-    digest: 458c87a2018ddb5b03de36b85be5868a2ed9c5ecb87803b29f2552ef91f43355
+    digest: 8ea9aebf5c87ff8039f094afa69e07627cb2d792771e3addec5b1965d1ff9baf
     name: file-sharer
     type: application
     urls:
-    - https://greninja517.github.io/file-sharer/file-sharer-1.0.0.tgz
-    version: 1.0.0
-generated: "2025-05-02T16:32:01.914929681+05:30"
+    - https://github.com/greninja517/file-sharer.git/file-sharer-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-05-04T14:33:32.663076401+05:30"
