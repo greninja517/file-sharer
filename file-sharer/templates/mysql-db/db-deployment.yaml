@@ -21,7 +21,7 @@ spec:
         - containerPort: 3306
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: {{ .Values.db.password }}
+          value: {{ required "database password is required. Use --set database.root_password=<password>" .Values.database.root_password }}
           # valueFrom:
           #   secretKeyRef:
           #     key: root_password

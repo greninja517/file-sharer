@@ -31,11 +31,12 @@ database:
     repository: "mysql"
     tag: "latest"
 
+  # these values shouldn't be exposed to public. This is for demo purpose only.
+  root_user: "root"
+  root_password: "Root@123"
+
   
 # ingress related
 ingress:
+  # provide your domain name for the application
   domain_name : "file.cloud-ninja.xyz"
-
-
-
-
