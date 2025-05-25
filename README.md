@@ -1,9 +1,8 @@
 # file-sharer
-This is the helm chart Source code of file sharing application.
-File Sharing Application Code URL:
-https://github.com/greninja517/file-sharing-application.git
+This is the helm chart Source code of file sharing application. For deploying the application, checkout the file sharing application repository at:
+* **File Sharing Application Source Code:** https://github.com/greninja517/file-sharing-application.git
 
-# Publishing the Helm Chart through github Pages
+# How to Publish your own Helm Chart through github Pages
 First, you have to create a new branch(gh-pages) to host the HELM chart that will contain only two files.i.e.
 i. <helm-chart-name>.tgz file
 ii. index.yaml file
